@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+     <meta charset="utf-8">
+     <title> Robyn Mulhall Portfolio</title>
+     <style>
+         @import "css/style.css"
+		
+         </style>
+
+</head>
+
+
+<body> 
+
+<div id="grad1">
+
+	<header>
+
+	<h1> Home | Robyn Mulhall </h1>
+
+		<nav class="main nav">
+
+			<ul>
+			<li><a href="index.html">Home Page</a></li>
+			<li><a href="about.html">About me</a></li>
+			<li><a href="photography.html">Photography</a></li>
+			<li><a href="design.html">Design</a></li>
+			<li><a href="media.html">Media</a></li>
+			</ul>
+		</nav>
+
+	</header>
+<br>
+<br>
+	<div id="container"> 
+	
+	
+	<meta name="slideshow" content="width=device-width, initial-scale=1">
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="images/Fence Flower.jpg" alt="picture of fence" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/BW Rufus.jpg" alt="picture of rufus" style="width:100%">
+ </div>
+
+<div class="mySlides fade">
+  <img src="images/BW Flower.jpg" alt="picture of BW flower" style="width:100%">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 4000); // Change image every 4 seconds (this is from W3 schools)
+}
+</script>
+	
+  
+  
+  
+  
+  </div>
+  
+	
+	
+<footer>
+
+</footer>
+	
+
+</body>
+</div>
+</html>

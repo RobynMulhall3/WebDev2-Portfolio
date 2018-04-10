@@ -1,0 +1,135 @@
+/* This file is : style.css */
+
+h1 { 
+color: #00bfff;
+text-align: center;
+}
+
+#grad1 {
+    background: linear-gradient(lightgreen, lightblue);
+}
+
+nav a:link, nav a:visited { 
+	width: 160px;
+	background-color: #ffcccc;
+	display: block;
+	font-weight: bold;
+	padding: 4px;
+	color: #00bfff;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-color: lime;
+	border: 2px solid yellow;
+}
+
+nav a:hover, nav a:active {
+	color: orange;
+	background-color: #ccff66;
+	display: inline;
+	float: left;
+	border: none;
+}
+	
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	font-size: 20px;
+}
+
+ nav b: {
+		text-decoration: none;
+		border: none;
+	}
+	
+	nav {
+		margin: auto;
+		width: 1000px;
+	}
+	
+	
+	nav li {
+		float: left;
+	}
+	
+.container {
+width: 100%;
+}
+.col1{
+position:absolute;
+width:33%;
+}
+.col2{
+position:absolute;
+left:550px;
+width:33%;
+}
+.col3{
+position:absolute;
+left:1100px;
+}
+.imagediv{width:500px;
+ height:300px;}
+	
+footer {
+
+position: fixed;
+
+}
+
+p {
+	font-family: georgian;
+	font-size: 20px;
+}
+
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.5s;
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .6} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .6} 
+  to {opacity: 1}
+}
+
+
+
+
+	
+	
+	
+	
